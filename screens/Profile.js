@@ -21,7 +21,6 @@ import * as ImagePicker from 'expo-image-picker';
 import { CheckBox } from 'react-native-elements';
 import { Alert } from 'react-native';
 import Onboarding from './Onboarding';
-import { Avatar, reloadProfileData } from './Avatar';
 
 export default function Profile({ navigation }) {
   const [emailNotification, setEmailNotification] = useState(false);
