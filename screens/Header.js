@@ -93,7 +93,7 @@ const Header = ({ navigation, profilePicture: newProfilePicture, pictureDeleted 
       <View style={styles.flexSpacer} />
       <View style={styles.logoContainer}>
           <Image
-            source={require('/Users/kaanbalkan/Desktop/capstone/little-lemon/Img/LittleLemonLogo.png')}
+            source={require('../Img/LittleLemonLogo.png')}
             style={styles.logoImage}
             resizeMode="contain"
           />
